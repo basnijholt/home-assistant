@@ -23,7 +23,6 @@ from .const import (
 from .core import PROVIDERS
 from .hls import async_setup_hls
 
-
 _LOGGER = logging.getLogger(__name__)
 
 CONFIG_SCHEMA = vol.Schema({DOMAIN: vol.Schema({})}, extra=vol.ALLOW_EXTRA)
