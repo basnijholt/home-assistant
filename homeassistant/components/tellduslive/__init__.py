@@ -1,15 +1,16 @@
 """Support for Telldus Live."""
 import asyncio
-import logging
 from functools import partial
+import logging
 
 import voluptuous as vol
 
-import homeassistant.helpers.config_validation as cv
 from homeassistant import config_entries
 from homeassistant.const import CONF_SCAN_INTERVAL
+import homeassistant.helpers.config_validation as cv
 from homeassistant.helpers.dispatcher import async_dispatcher_send
 from homeassistant.helpers.event import async_call_later
+
 from . import config_flow  # noqa: F401
 from .const import (
     CONF_HOST,
