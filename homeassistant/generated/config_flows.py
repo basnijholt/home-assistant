@@ -9,6 +9,7 @@ FLOWS = [
     "abode",
     "accuweather",
     "acmeda",
+    "adaptive_lighting",
     "adguard",
     "agent_dvr",
     "airly",
